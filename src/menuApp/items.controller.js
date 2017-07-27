@@ -10,7 +10,7 @@ function ItemsController(MenuAppService,para,items) {
   var list = this;
 
   
-    list.foods=items.menu_items;
+    list.items=items.menu_items;
  
 
 }

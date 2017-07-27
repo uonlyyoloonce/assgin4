@@ -26,8 +26,8 @@ function RoutesConfig($stateProvider, $urlRouterProvider) {
   })
   .state('items', {
      url: '/items/{cateId}',
-    templateUrl: 'src/menuApp/templates/items.template.html',
-    controller: 'ItemsController as items',
+    templateUrl: 'src/menuApp/templates/home.template.html',
+    controller: 'ItemsController as itemsDetail',
     resolve: {
       items: ['MenuAppService', '$stateParams',function (MenuAppService,$stateParams) {
          

@@ -2,8 +2,17 @@
 <html ng-app='MenuApp'>
   <head>
     <meta charset="utf-8">
- 
-  
+    <style>
+
+      li[ui-sref]:hover {
+          display: inline-block;
+          cursor: pointer;
+          
+          padding-left: 2px;
+          padding-right: 2px;
+          }
+
+    </style>
   </head>
   <body>
    <a ui-sref="categories"><h1>Welcome to our Restaurant</h1></a>
